@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.logo {
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    padding: 1em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+ul li a:hover {
+    border-bottom: 3px solid blue;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn-links:hover {
+    border-bottom: 3px solid blue;
+}
+
+
+
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 0 3em;
+}
+
+.description {
+    padding: 8em 0;
+}
+
+.description h2 {
+    text-transform: uppercase;
+    color: #44C3EBCC;
+    font-size: 24px;
+}
+
+.description p {
+    font-size: 48px;
+    margin-bottom: 1em;
+}
+
+.landing-img {
+    height: 550px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    padding: .7em;
+    border: none;
+}
+
+.login-btn {
+    background: none;
+}
+
+.btn-colored {
+    background-color: #E87A14;
+    border-radius: 10px;
+}
+
+.signup-btn:hover {
+    border: 3px solid blue;
+}
+
+/* sign up  page styling */
+
+.signup-container {
+    background: #E87A14;
+}
+
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 3.4em 0;
+    
+    
+}
+
+.buttons-left {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px 0 0 10px;
+    
+}
+
+.buttons-left, .signup-img {
+    height: 600px;
+    width: 450px;
+}
+
+header {
+    text-align: center;
+}
+
+.signup-logo {
+    padding: 1em;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.signup-btn-group {
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: none;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+
+.icons {
+    width: 20px;
+}
+
+
+
+.signup-img {
+    border-radius: 0 10px 10px 0;
+}
